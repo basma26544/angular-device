@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
 import { AppBootstrapModule } from './app-bootstrap/app-bootstrap.module';
 import { AppComponent } from './app.component';
-
+import 'bootstrap/js/dist/carousel'
 @NgModule({
   declarations: [
     AppComponent,
